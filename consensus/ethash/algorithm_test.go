@@ -708,43 +708,50 @@ func TestProgpow(t *testing.T) {
 			blockNumber: 568971,
 			nonce:       2698189332257848714,
 			headerHash:  hexutil.MustDecode("0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"),
-			digest:      hexutil.MustDecode("0xfb8dc4fa5ec9df003efea48e54d6e6b9ad14febf76461fcc17abf547c623c671"),
-			result:      hexutil.MustDecode("0x4b9f8eea14bc2b7e60b128199a9b3a39cf531cdac098708a74a34dce7e155dfc"),
+			digest:      hexutil.MustDecode("0x10ad0d377bea5eb370f873524dee32d59fffac00b54ebae1d2553499cc34019f"),
+			result:      hexutil.MustDecode("0xa0bef058b217e3d4be8736a12139734e9975ea2901240e04e53d62f7f45e27ea"),
 		},
 		{
 			blockNumber: 388535,
 			nonce:       11350685028073024571,
 			headerHash:  hexutil.MustDecode("0xd0671f757312d0b37ef62adeda2ca64de098e6dd5f324eb208387f03f0d70973"),
-			digest:      hexutil.MustDecode("0xfe530a6872d58e129e15a38250e33e38932c433108dfa5cd477c7c100de293f0"),
-			result:      hexutil.MustDecode("0x50d672a1f6e9fd158fab54fd04ec07d379c25c1a1df8bc00755ac28afbed1812"),
+			digest:      hexutil.MustDecode("0xe0a1d09fcb0cac41a942a287e450df70aba0312bacb06ffd807e42d574b58ac1"),
+			result:      hexutil.MustDecode("0x7036bcfc9771cf19ef7791ffe7c20e628426038ecc1cb8dcde392eb55f3276a5"),
 		},
 		{
 			blockNumber: 536645,
 			nonce:       3296326097221485749,
 			headerHash:  hexutil.MustDecode("0x008e92dc6fc10a01a5671c98925b84007b024dc21b4af9ad103f0204df9b5592"),
-			digest:      hexutil.MustDecode("0x4f1d0473b5cbaf80e1e891f7386086d63b73cabcd6818b4b5c3053e1925e84c9"),
-			result:      hexutil.MustDecode("0x4d7887a10744ab51ae2bf126cf549987b0606c7a144d72be939e4c3ad3880e84"),
+			digest:      hexutil.MustDecode("0xd81a94b585d5409a301a412067a953e884e5664b68b0001310484f3f33fe92c9"),
+			result:      hexutil.MustDecode("0x90512a8c33c9c35236755e7c1d7483c1a9f6424d59ecd06ece65d48d249bf5ef"),
 		},
 		{
 			blockNumber: 876552,
 			nonce:       11383401966936408197,
 			headerHash:  hexutil.MustDecode("0x3151819557f29f286cbf68674c939144fdb2fd34375ee47a0f06e7cbec080e3d"),
-			digest:      hexutil.MustDecode("0x07446153288feaf2c760a8836771c9e7066234a4af6ef6ba68851e1163af9c38"),
-			result:      hexutil.MustDecode("0x071f817be7d53b9237969a3fc9a5279ac4f2b341228ed329b3932c9430b45778"),
+			digest:      hexutil.MustDecode("0x04aeef5bcc1f08891c6729eb087bcca8c24bb7e3b8fba3be298f5bee8dc35c1c"),
+			result:      hexutil.MustDecode("0xe45a019cd5d9305ef6954cb3610b903ddac053c1972f13dc9f6a7ba7943bec11"),
 		},
 		{
 			blockNumber: 764687,
 			nonce:       5351638945881873441,
 			headerHash:  hexutil.MustDecode("0x9e17a493a550bdcee9043baf5a8940ac8642298cc50fb9fe3f22dd228c8f8f7c"),
-			digest:      hexutil.MustDecode("0x8dea18269c515dcf977cf93fc589ebd0074482fa3c66de8125cbc2ccd85e7994"),
-			result:      hexutil.MustDecode("0x7ccb1ea27b3ab0812b2d74e22623f0978b5364c9753d52ebddc4960c9812cc00"),
+			digest:      hexutil.MustDecode("0xb2253ff4ccf36155624718b5850724b63dd145ffc0e3e2a8a5dbe8cc400c2072"),
+			result:      hexutil.MustDecode("0x36160d00540b5828eafa52dfbfffb36c7e384dbce528abbd66211e79b81af9f0"),
 		},
 		{
 			blockNumber: 458302,
 			nonce:       2803265429648281870,
 			headerHash:  hexutil.MustDecode("0x79cd62c4f2fbf05abfee36cec6f6ba4a1100acec3f78939eaeb1d5345da2081b"),
-			digest:      hexutil.MustDecode("0x919eda85e25ad1880d371fea3f544972e08a1b0550d0e06567943eb29e48e26a"),
-			result:      hexutil.MustDecode("0x73347af72e0ad745a90ba61467607af9c152e963a3c24f24f1b411d521985355"),
+			digest:      hexutil.MustDecode("0x669382454fe034a028c7c1ec3f48fbc9d8edc3625414686e389b979c7dfe8520"),
+			result:      hexutil.MustDecode("0xf46c62f44a2107105825a2d3079588694de0187a9f68f9878394d94ed4d03f9e"),
+		},
+		{
+			blockNumber: 30000,
+			nonce:       1311768467463790320,
+			headerHash:  hexutil.MustDecode("0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff"),
+			digest:      hexutil.MustDecode("0x44fa88669c864aa30ba7da46e557593289c4d1fb143a1c43813d512b14fb4636"),
+			result:      hexutil.MustDecode("0xb946ea7d74e3c619733ad73ac64a3c7671459b5d5d84d4f5c5cc09feb06ba2c3"),
 		},
 	}
 
@@ -761,13 +768,14 @@ func TestProgpow(t *testing.T) {
 		keccak512 := makeHasher(sha3.NewKeccak512())
 		cDag := make([]uint32, progpowCacheWords)
 		rawData := generateDatasetItem(cache, 0, keccak512)
+		index := uint32(0)
 
-		for i := uint32(0); i < progpowCacheWords; i += 2 {
-			if i != 0 && 2 * i / 16 != 2 * (i - 1) / 16 {
-				rawData = generateDatasetItem(cache,  2 * i / 16, keccak512)
+		for i := uint32(0); i < progpowCacheWords; i++ {
+			if index != i/16 {
+				index = i / 16
+				rawData = generateDatasetItem(cache, index, keccak512)
 			}
-			cDag[i + 0] = binary.LittleEndian.Uint32(rawData[((2 * i + 0) % 16) * 4:])
-			cDag[i + 1] = binary.LittleEndian.Uint32(rawData[((2 * i + 1) % 16) * 4:])
+			cDag[i] = binary.LittleEndian.Uint32(rawData[(i%16)*4:])
 		}
 
 		digest, result := progpowLight(datasetSize, cache, tt.headerHash, tt.nonce, tt.blockNumber, cDag)
@@ -780,7 +788,7 @@ func TestProgpow(t *testing.T) {
 	}
 	// Test the full ProgPoW
 	// Restricted to testing for one case due to large execution time
-	for i, tt := range tests[0:1] {
+	for i, tt := range tests {
 		cacheSize := cacheSize(tt.blockNumber)
 		datasetSize := datasetSize(tt.blockNumber)
 		seedHash := seedHash(tt.blockNumber)
